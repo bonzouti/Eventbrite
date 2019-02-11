@@ -2,8 +2,7 @@ class Event < ApplicationRecord
   validates :price,
   presence: true
   validates :user,
-  presence: true,
-  uniqueness: true
+  presence: true
   validates :start_date,
   presence:  true
   validates :duration,

@@ -7,5 +7,5 @@ class Attendance < ApplicationRecord
   presence: true,
   uniqueness: true
   belongs_to :event
-  belonngs_to :user
+  belongs_to :user
 end
