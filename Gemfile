@@ -67,6 +67,7 @@ group :test do
   gem 'shoulda-matchers', '4.0.0.rc1'
   gem 'rails-controller-testing'
   gem 'nyan-cat-formatter'
+  gem "rails-helper"
 end
 
 group :production do

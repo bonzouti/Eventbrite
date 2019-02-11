@@ -154,6 +154,7 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
+    rails-helper (0.1.0)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
     railties (5.2.2)
@@ -262,6 +263,7 @@ DEPENDENCIES
   puma (~> 3.11)
   rails (~> 5.2.2)
   rails-controller-testing
+  rails-helper
   rspec-rails (~> 3.8)
   sass-rails (~> 5.0)
   selenium-webdriver
