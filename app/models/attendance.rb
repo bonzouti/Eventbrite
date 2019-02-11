@@ -3,9 +3,7 @@ class Attendance < ApplicationRecord
   presence: true
   validates :event,
   presence: true
-  validates :stripe_customer_id,
-  presence: true,
-  uniqueness: true
+  validates :stripe_customer_id, presence: true
   belongs_to :event
   belongs_to :user
 end
