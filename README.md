@@ -1,3 +1,3 @@
 # README
 
-![cat gif](https://giphy.com/embed/5r5J4JD9miis) 
+![cat gif](https://media.giphy.com/media/5r5J4JD9miis/giphy.gif) 
