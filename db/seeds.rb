@@ -10,7 +10,7 @@ Attendance.destroy_all
    end
 puts "20 users ont été créés"
 20.times do
-    event = Event.create!(title: Faker::Hipster.sentence(3), description: Faker::MostInterestingManInTheWorld.quote, user: User.all.sample, start_date: Faker::Date.forward(23), duration: rand(100..10000), price: rand(1..1000), location: Faker::HarryPotter.location)
+    event = Event.create!(title: Faker::Hipster.sentence(3), description: Faker::Hipster.sentence(5), user: User.all.sample, start_date: Faker::Date.forward(23), duration: rand(100..10000), price: rand(1..1000), location: Faker::HarryPotter.location)
    end
 puts "20 events ont été créés"
    30.times do
